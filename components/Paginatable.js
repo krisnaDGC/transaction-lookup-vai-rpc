@@ -1,7 +1,7 @@
 // components/PaginatedTable.js
 import { useState } from 'react';
 
-const rowsPerPage = 2;
+const rowsPerPage = 10;
 
 const PaginatedTable = ({ data }) => {
     const [currentPage, setCurrentPage] = useState(1);
